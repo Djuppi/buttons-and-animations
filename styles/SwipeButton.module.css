@@ -1,0 +1,32 @@
+.button {
+    text-decoration: none;
+    color: #351435;
+    font-family: sans-serif;
+    font-size: 40px;
+    border: 4px solid #351435;
+    padding: 20px 40px;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.button:hover {
+    color: white;
+}
+
+.button:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #351435;
+    height: 101%;
+    width: 101%;
+    z-index: -1;
+    transform: translateY(-100%);
+    transition: all 1s;
+}
+
+.button:hover:before {
+    transform: translateY(0);
+}

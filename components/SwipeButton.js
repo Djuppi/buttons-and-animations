@@ -1,11 +1,11 @@
-import styles from '../styles/Button1.module.css';
+import styles from '../styles/SwipeButton.module.css';
 import { ButtonContainer } from './ButtonContainer';
 
-export const Button1 = () => {
+export const SwipeButton = () => {
 
     return (
         <ButtonContainer>
-            <p>Rotate button</p>
+            <p>SwipeButton</p>
             <a className={styles.button} href='#'>Hover me</a>
         </ButtonContainer>
     )
