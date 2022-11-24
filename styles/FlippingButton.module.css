@@ -1,0 +1,52 @@
+.button {
+    text-transform: uppercase;
+    background-color: #F1C40F;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.button:before {
+    content: 'button';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100.2%;
+    height: 100%;
+    background-color: #2CE771;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateX(270deg);
+    transform-origin: top;
+    transition: all 0.5s;
+    transition-delay: .25s;
+}
+
+.button:hover:before {
+    transform: rotateX(0);
+    transition-delay: 0s;
+}
+
+.button:hover:after {
+    transform: rotateX(0);
+    transition-delay: .25s;
+}
+
+.button:after {
+    content: 'button';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100.2%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateX(270deg);
+    transform-origin: top;
+    transition: all 0.5s;
+    transition-delay: 0s;
+}
