@@ -1,0 +1,30 @@
+.button {
+    color: #262626;
+    border: 4px solid #262626;
+    position: relative;
+    transition: all .5s;
+    overflow: hidden;
+}
+
+.button:before {
+    content: 'Hover me';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    transform: scale(5);
+    opacity: 0;
+}
+
+.button:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
