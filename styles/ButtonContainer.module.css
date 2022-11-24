@@ -2,4 +2,12 @@
     display: flex;
     flex-direction: column;
     margin: 20px;
+    height: 200px;
+}
+
+.buttonContainer a {
+    padding: 20px 40px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 40px;
 }
