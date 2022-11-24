@@ -20,10 +20,10 @@
     height: 101%;
     width: 101%;
     z-index: -1;
-    transform: translateY(-100%);
+    transform: translateX(-100%);
     transition: all 1s;
 }
 
 .button:hover:before {
-    transform: translateY(0);
+    transform: translateX(0);
 }
