@@ -8,6 +8,7 @@ import { FlagButton } from '../components/FlagButton'
 import { FlippingButton } from '../components/FlippinButton'
 import { FlipSwipeButton } from '../components/FlipSwipeButton'
 import { FlyinButton } from '../components/FlyInButton'
+import { SplittedButton } from '../components/SplittedButton'
 import StretchButton from '../components/StretchButton'
 import { SwipeButton } from '../components/SwipeButton'
 import { SwitchButton } from '../components/SwitchButton'
@@ -31,6 +32,7 @@ export default function Home() {
       <FlipSwipeButton />
       <ThreeDotsButton />
       <CreatvieButton />
+      <SplittedButton />
     </div>
   )
 }
