@@ -8,6 +8,7 @@
     text-align: center;
     line-height: 40px;
     position: relative;
+    border: 1px solid #262626;
     border-radius: 9px;
     transition: all .3s;
 }
@@ -74,5 +75,6 @@
 .button:hover {
     color: white;
     transition-delay: .4s;
+    border: 1px solid tomato;
 }
 

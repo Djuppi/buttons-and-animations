@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { ThreeDotsButton } from '../components/3DotsButton'
 import { Button1 } from '../components/Button1'
 import { CircularSwipeButton } from '../components/CircularSwipeButton'
+import { CreatvieButton } from '../components/CreativeButton'
 import { FlagButton } from '../components/FlagButton'
 import { FlippingButton } from '../components/FlippinButton'
 import { FlipSwipeButton } from '../components/FlipSwipeButton'
@@ -29,6 +30,7 @@ export default function Home() {
       <FlippingButton />
       <FlipSwipeButton />
       <ThreeDotsButton />
+      <CreatvieButton />
     </div>
   )
 }
